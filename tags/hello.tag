@@ -15,13 +15,11 @@
   <h1> Round Number : {Math.round(22.5426)} </h1>
   <h1>  \{ 22.5426 \} </h1>
 
-
-
   this.auth = false;
 
   console.log("Logging from the riot tag file");
 
-  <script>
+  <script >
     this.isPrimary = true;
     this.isFullWidth = true;
     this.isDisabled = true;
@@ -35,6 +33,8 @@
      this.get_usernameGender = function(gender){
       return (gender == 'male') ? "John Doe" : "Jane Doe";
     }
+
+
   </script>
 
 </hello-world>
