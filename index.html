@@ -26,8 +26,21 @@
       <script type="riot/tag" src="tags/riot-events.tag"></script>
       <script type="riot/tag" src="tags/named-elements.tag"></script>
       <script type="riot/tag" src="tags/loops.tag"></script>
+      <script type="riot/tag" src="tags/cta.tag"></script>
 
       <script>riot.mount('*');</script>
+      <script>
+         var RequiredOpt = {
+            init: function(){
+                this.on('mount', function(){
+                    console.log("RequiredOpt mixin added to : "+ this.root.localName);
+                });
+                if(!this.opts.name){
+                    console.error("Missing name option ");
+                }
+            }
+        }
+      </script>
 
     </div>
   </body>

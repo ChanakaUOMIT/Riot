@@ -34,6 +34,11 @@
     
     <br/>
     <loops></loops>
+
+    <hr>
+    <br/>
+    <cta  label="Click Here !"></cta>
+
     <script>
         console.log("Root : ",this.root);
         console.log("Tag : ",this.tag);
