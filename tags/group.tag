@@ -21,6 +21,10 @@
       
     </blog-post>
 
+    <br/>
+
+    <event-hander></event-hander>
+
     <script>
         console.log("Root : ",this.root);
         console.log("Tag : ",this.tag);
