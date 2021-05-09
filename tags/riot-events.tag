@@ -43,9 +43,9 @@
         if(this.temp < 15 && this.temp > 5) this.temp_color = 'green';
     });
 
-    this.one('update', function(){
+    <!--  this.one('update', function(){
         alert('tag updated');
-    })
+    })  -->
 
     this.increase = function(){
         this.temp++;

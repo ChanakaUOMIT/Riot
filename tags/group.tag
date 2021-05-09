@@ -26,6 +26,10 @@
 
     <br/>
     <riot-events></riot-events>
+
+    
+    <br/>
+    <named-elements></named-elements>
     <script>
         console.log("Root : ",this.root);
         console.log("Tag : ",this.tag);
