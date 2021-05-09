@@ -7,6 +7,20 @@
         <li><user first="Virginia" last="Woolf"></user></li>
     </ol>
 
+    <blog-post title="My First Post">
+        <yield to="body">
+            <p>Some content in our new awesome blog post.</p>
+            <a>Link to author Bio</a><br/>
+            <img src="http://placehold.it/250x250" /><br/>
+            <small>Some legal disclamer</small>
+        </yield>
+
+          <yield to="lead">
+            <p>Some leading text to intro the blog post.</p>
+        </yield>
+      
+    </blog-post>
+
     <script>
         console.log("Root : ",this.root);
         console.log("Tag : ",this.tag);
