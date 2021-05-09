@@ -30,6 +30,10 @@
     
     <br/>
     <named-elements></named-elements>
+
+    
+    <br/>
+    <loops></loops>
     <script>
         console.log("Root : ",this.root);
         console.log("Tag : ",this.tag);
