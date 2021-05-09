@@ -22,16 +22,17 @@
     </blog-post>
 
     <br/>
-
     <event-hander></event-hander>
 
+    <br/>
+    <riot-events></riot-events>
     <script>
         console.log("Root : ",this.root);
         console.log("Tag : ",this.tag);
 
-        $(this.root).click(function(){
+        <!--  $(this.root).click(function(){
             console.log("Admin Clicked");
-        })
+        })  -->
     </script>
 
 </user-group>
